@@ -54,8 +54,9 @@ button:hover{
     top: 150px;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family: 'Notable', sans-serif;
-    font-size: 20px;
+    font-family: 'Odibee Sans', cursive;
+    font-weight: lighter;
+    font-size: 1.5em;
     text-align: justify;
     
 }
@@ -64,11 +65,19 @@ button:hover{
     border: 1px solid black;
     border-radius: 5px;
     
-    font-size: 24px;
+    font-size: 2em;
     text-align: justify;
     overflow: hidden;
     background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,209,67,1) 0%, rgba(255,145,83,1) 90% );
     color: black
+}
+
+@media (max-width: 844px){
+    header{
+        font-size: 2em;
+    }
+
+   
 }
 
 
