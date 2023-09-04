@@ -64,7 +64,7 @@ button:hover{
 .textspace:hover{
     border: 1px solid black;
     border-radius: 5px;
-    
+    text-align: center;
     font-size: 2em;
     text-align: justify;
     overflow: hidden;
@@ -75,10 +75,75 @@ button:hover{
 @media (max-width: 844px){
     header{
         font-size: 2em;
+        padding:10px;
+        
     }
 
-   
+    button{
+        margin-top: 100px;
+    }
+
+    .textspace{
+        font-size: 1em;
+        margin-top: 150px;
+        width: 85%;
+        height: fit-content;  
+        text-align: center;
+    }
+
+    .textspace:hover{
+        text-align: center;
+        width: 250px;
+        height: fit-content; 
+}
 }
 
+@media (max-width: 915px){
+    header{
+        font-size: 2em;
+        padding:10px;
+        
+    }
+
+    button{
+        margin-top: 100px;
+    }
+
+    .textspace{
+        margin-top: 150px;
+        width: 250px;
+        height: fit-content;  
+        text-align: center;
+    }
+
+    .textspace:hover{
+        text-align: center;
+   
+}
+}
+
+@media (max-width: 1024px){
+    header{
+        font-size: 2em;
+        padding:10px;
+        
+    }
+
+    button{
+        margin-top: 100px;
+    }
+
+    .textspace{
+        margin-top: 150px;
+        width: 500px;
+        height: fit-content;  
+        text-align: center;
+    }
+
+    .textspace:hover{
+        text-align: center;
+    }
+   
+}
 
 
